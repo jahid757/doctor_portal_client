@@ -1,0 +1,26 @@
+.footerLink{
+    list-style:none;
+    padding-left: 0;
+}
+.footerLink li a{
+    text-decoration: none;
+    color: #3A4256;
+    text-transform: capitalize;
+}
+.icon{
+    width: 45px !important;
+    height: 45px !important;
+    text-align: center;
+    color: #1cc7c1;
+    font-size: 15px !important;
+    border-radius:100px;
+    border: 1px solid #1cc7c1;
+    display:inline-block;
+    padding:10px;
+    margin-left: 10px;
+    transition: .3s ease-in-out;
+}
+.icon:hover{
+    color: #fff;
+    background-color: #1cc7c1
+}

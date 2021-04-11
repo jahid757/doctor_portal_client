@@ -1,0 +1,17 @@
+.doctor_container{
+    background-image:url('../../../images/chairBg.png');
+    position: relative;
+}
+.doctor_container::after{
+    width:100%;
+    height:100%;
+    content:'';
+    position:absolute;
+    background-color: #3A4256;
+    top: 0;
+    z-index: -10;
+}
+.doctor_container img{
+    transform: translateY(-136px);
+    /* height:500px; */
+}
