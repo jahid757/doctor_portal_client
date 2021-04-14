@@ -1,8 +1,9 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Blog from '../Blog/Blog';
 import ContactUs from '../ContactUs/ContactUs';
 import FeaturedServices from '../FeaturedServices/FeaturedServices';
-import Footer from '../Footer/Footer';
+// import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import MakeAppointment from '../MakeAppointment/MakeAppointment';
 import OurDoctor from '../OurDoctor/OurDoctor';

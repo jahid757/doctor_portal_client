@@ -10,7 +10,8 @@ const footerLink = [
         link2:'check up',
         link3:'treatment of personal diseases',
         link4:'tooth extraction',
-        link5:'check up'
+        link5:'check up',
+        id:1
     },
     {
         title: 'Services',
@@ -22,6 +23,7 @@ const footerLink = [
         link6:'check up',
         link7:'treatment of personal diseases',
         link8:'tooth extraction',
+        id:2
     },
     {
         title: 'Oral Health',
@@ -33,6 +35,7 @@ const footerLink = [
         link6:'check up',
         link7:'treatment of personal diseases',
         link8:'tooth extraction',
+        id:3
     },
     {
         title: 'Our Address',
@@ -42,7 +45,8 @@ const footerLink = [
         google:faGoogle,
         twitter:faTwitter,
         callText: 'call now',
-        phone: '+15737368367'
+        phone: '+15737368367',
+        id:4
     }
 ]
 
@@ -53,7 +57,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row pb-5 pt-5">
                     {
-                        footerLink.map(link => <FooterLink link={link}></FooterLink>)
+                        footerLink.map(link => <FooterLink key={link.id} link={link}></FooterLink>)
                     }
                 </div>
                 <p className="text-secondary text-center">Copy Right {(new Date()).getFullYear()} All Rights Reserved</p>
